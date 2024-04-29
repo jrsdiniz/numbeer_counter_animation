@@ -1,0 +1,28 @@
+section.count_numbers {
+  background-color: black;
+  position: relative;
+  top: -80px;
+  padding-top: 10rem;
+  padding-bottom: 6rem;
+  color: white;
+}
+section.count_numbers .count{
+  display: grid;
+  place-content: center;
+}
+section.count_numbers .number {
+  color: #ffffff;
+  display: flex;
+  font-weight: 800;
+  font-size: 4em;
+}
+
+section.count_numbers span.text {
+  color: #e0e0e0;
+  font-size: 1.4rem;
+  place-items: center;
+  padding: 0.7em 0;
+  font-weight: 600;
+  line-height: 0;
+  text-align: center;
+}
